@@ -4,19 +4,67 @@
     box-sizing: border-box;
 }
 
+header {
+    display: block;
+    /* position: fixed; */
+    margin: 0 auto;
+}
+
 body {
     font-family: "Lato" Verdana, Geneva, Tahoma, sans-serif;
-    height: 1400px;
-    background-image: url("images/tony-dinh-U_OuQ82PFHg-unsplash.jpg");
+    color: antiquewhite;
+    height: 1600px;
+    /* width: 1200px; */
+    margin: 0 auto;
+    background-image: url("../images/tony-dinh-U_OuQ82PFHg-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-h1 {
-    font-family: "Lato" Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5rem;
+
+#nav-bar {
+    visibility: visible;
+    /* display: flex; */
+    height: 50px;
+    max-width: 1200px;
+    align-content: center;
+    justify-content: space-between;
+    /* position: relative; */
+    flex-direction: row;
+    background-color: lightseagreen;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 30px;
+
+    justify-content: flex-end;
+}
+
+/* #header-img {
+    position: ;
+} */
+
+.nav-list {
+    display: flex;
+    position: fixed;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    list-style: none;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
     font-weight: 700;
-    text-align: center;
-    color: darkred;
+
 }
