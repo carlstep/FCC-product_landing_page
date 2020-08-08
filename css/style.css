@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: "Lato" Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
-    height: 1900px;
+    /* height: 1900px; */
     margin: 0 auto;
     padding: 30px 50px 50px;
     background-image: linear-gradient(to top, #69B62F, #DE3375), url("../images/tony-dinh-U_OuQ82PFHg-unsplash.jpg");
@@ -45,7 +47,16 @@ nav {
     margin: 0 5px;
 }
 
-.nav-link:hover {
+.about-link:hover {
+    color: lightblue;
+}
+.product-link:hover {
+    color: red;
+}
+.learn-link:hover {
+    color: orange;
+}
+.price-link:hover {
     color: rgb(21, 167, 21);
 }
 
@@ -57,8 +68,12 @@ section {
 
 .container {
     display: flex;
-    max-width: 60%;
-    margin-top: 100px;
+    position: relative;
+    max-width: 50%;
+    margin-top: 400px;
+    margin-bottom: 400px;
+    margin-left: 200px;
+    height: 800px;
     /* position: relative; */
 }
 
@@ -67,5 +82,42 @@ section {
 }
 
 h1 {
+    margin: 100px 0;
+    padding: 380px auto;
+    font-size: 4.5rem;
+    color: lightblue;
+}
+
+h2 {
+    margin: 280px auto;
     font-size: 3rem;
+}
+
+
+.product {
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: #E40F1B;
+    opacity: .85;
+    /* margin: 200px auto; */
+    border-radius: 25px;
+}
+
+.learn {
+    position: relative;
+    /* border: 2px solid yellow; */
+    background-color: orange;
+    opacity: .85;
+    /* margin: 200px auto; */
+    border-radius: 25px;
+}
+
+.price {
+    position: relative;
+    /* border: 2px solid green; */
+    background-color: green;
+    opacity: .85;
+    margin-top: 100px;
+    margin-bottom: 2000px;
+    border-radius: 25px;
 }
