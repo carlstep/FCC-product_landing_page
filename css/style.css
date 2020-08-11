@@ -93,7 +93,7 @@ p {
 
 .container {
     position: relative;
-    max-width: 60%;
+    width: 60%;
     margin-bottom: 200px;
     padding: 20px;
     opacity: 0.85;
