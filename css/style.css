@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 30px 45px 50px;
     background-image: linear-gradient(to top, #69b62f, #de3375),
-        url("../images/tony-dinh-U_OuQ82PFHg-unsplash.jpg");
+        url("https://images.unsplash.com/photo-1558709805-a2a95a3f4af8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
     /* background-color: grey; */
     background-blend-mode: overlay;
     background-size: cover;
@@ -59,7 +59,7 @@ nav {
 
 section {
     /* display: flex; */
-    margin: 50px auto;
+    margin: 10px auto;
     max-width: 80%;
 }
 
@@ -205,3 +205,42 @@ form {
     cursor: pointer;
     margin-left: 20px;
 }
+
+
+
+
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+
+    .product-image {
+        height: 170px;
+    }
+
+    #form {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    
+    
+    }
